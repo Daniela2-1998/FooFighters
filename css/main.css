@@ -1,0 +1,46 @@
+.logoFFBlanco{
+    margin-left: 800px;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.cuadro{
+    background-color: rgba(255, 255, 255, 0.163);
+    color: white;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.tituloMedio{
+    color: white;
+    margin-left: 50px;
+}
+
+.subtitulos{
+    color: white;
+    margin-left: 50px;
+}
+
+
+.letraBlanca{
+    color: white;
+}
+
+.margenIzq{
+    margin-left: 50px;
+}
+
+.margenDer{
+    margin-right: 50px;
+}
+
+.fotoCentral{
+    margin-left: 480px;
+}
+
+.footer{
+    margin-left: 650px;
+}

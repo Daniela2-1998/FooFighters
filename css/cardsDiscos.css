@@ -1,0 +1,439 @@
+.card {
+    width: 240px;
+    height: 550px;
+    background: #07182E;
+    background-image: url(/media/discos/foofighters.jpg);
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .card h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 183, 255)), to(rgb(255, 48, 255)));
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    -webkit-animation: rotBGimg 3s linear infinite;
+            animation: rotBGimg 3s linear infinite;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  @-webkit-keyframes rotBGimg {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  .card::after {
+    content: '';
+    position: absolute;
+    background-image: url(/media/discos/foofighters.jpg); 
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  /* .card:hover:before {
+    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+    animation: rotBGimg 3.5s linear infinite;
+  } */
+  
+
+  body{
+    background-image: url(/media/logos/logoFF.png);
+    background-repeat: repeat;
+  }
+
+  .cardUbiFF{
+    right: 400px;
+    top: 50px;
+  }
+  .cardCASubi{
+    right: 100px;
+    top: -202px;
+  }
+ .cardCAS {
+    width: 230px;
+    height: 260px;
+    background: #07182E;
+    background-image: url(/media/discos/colourAndShape.jpg);
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .cardCAS::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 183, 255)), to(rgb(255, 48, 255)));
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    -webkit-animation: rotBGimg 3s linear infinite;
+            animation: rotBGimg 3s linear infinite;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  @-webkit-keyframes rotBGimg {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  .cardCAS::after {
+    content: '';
+    position: absolute;
+    background-image: url(/media/discos/color.jpg); 
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  /* .card:hover:before {
+    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+    animation: rotBGimg 3.5s linear infinite;
+  } */
+  
+
+
+
+
+.contenedor{
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+
+
+.cardTINETLubi{
+  right: -200px;
+  top: -462px;
+} 
+.cardTINETL {
+  width: 250px;
+  height: 260px;
+  background: #07182E;
+  background-image: url(/media/discos/TINETL.jpg);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.cardTINETL::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 183, 255)), to(rgb(255, 48, 255)));
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  -webkit-animation: rotBGimg 3s linear infinite;
+          animation: rotBGimg 3s linear infinite;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@-webkit-keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.cardTINETL::after {
+  content: '';
+  position: absolute;
+  background-image: url(/media/discos/TINETL.jpg); 
+  inset: 5px;
+  border-radius: 15px;
+}  
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+
+
+.cardOBOubi{
+  right: -500px;
+  bottom: 722PX;
+}
+.cardOBO {
+  width: 230px;
+  height: 260px;
+  background: #07182E;
+  background-image: url(/media/discos/onebyone.jpg);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.cardOBO::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 183, 255)), to(rgb(255, 48, 255)));
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  -webkit-animation: rotBGimg 3s linear infinite;
+          animation: rotBGimg 3s linear infinite;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@-webkit-keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.cardOBO::after {
+  content: '';
+  position: absolute;
+  background-image: url(/media/discos/onebyone.jpg); 
+  inset: 5px;
+  border-radius: 15px;
+}  
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+
+
+
+.cardIYHubi{
+  right: 400px;
+  bottom: 680PX;
+}
+.cardIYH {
+  width: 230px;
+  height: 260px;
+  background: #07182E;
+  background-image: url(/media/discos/inyourhonor.jpg);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.cardIYH::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 183, 255)), to(rgb(255, 48, 255)));
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  -webkit-animation: rotBGimg 3s linear infinite;
+          animation: rotBGimg 3s linear infinite;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@-webkit-keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.cardIYH::after {
+  content: '';
+  position: absolute;
+  background-image: url(/media/discos/Foo_fighters_in_your_honor.jpg); 
+  inset: 5px;
+  border-radius: 15px;
+}  
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+
+
+
+
+.cardEPSGubi{
+  right: 100px;
+  bottom: 940PX;
+}
+.cardEPSG {
+  width: 230px;
+  height: 260px;
+  background: #07182E;
+  background-image: url(/media/discos/echoespatience.jpg);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.cardEPSG::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 183, 255)), to(rgb(255, 48, 255)));
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  -webkit-animation: rotBGimg 3s linear infinite;
+          animation: rotBGimg 3s linear infinite;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@-webkit-keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotBGimg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.cardEPSG::after {
+  content: '';
+  position: absolute;
+  background-image: url(/media/discos/echoespatience.jpg); 
+  inset: 5px;
+  border-radius: 15px;
+}  
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+.navegador{
+    background-color: black;
+}
+
+.logoFFBlanco{
+    margin-left: 800px;
+}
+
+.card {
+    width: 400px;
+    height: 1000px;
+    border-radius: 30px;
+    border-image: 30px;
+    background: #212121;
+    -webkit-box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                    -15px -15px 30px rgb(60, 60, 60);
+                box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                    -15px -15px 30px rgb(60, 60, 60);
+       
+    top: 100px;          
+ }
+      
+
+.tarjetasLetras{
+    color: black;
+}
+
+.contenedor
+{
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+
+.dave{
+    position: static;
+    right: 465px;
+    
+}
+
+.taylor{
+    position: static;
+    left: 8px;
+    top: -405px;
+}
+
+.nate{
+    position: static;
+    left: 470px;
+    top: -910px;
+}
+
+.pat{
+    position: static;
+    right: 465px;
+    top: -850px;
+}
+
+.chris{
+    position: static;
+    left: 8px;
+    top: -1357px;
+}
+
+.rami{
+    position: static;
+    left: 470px;
+    top: -1865px;
+}
