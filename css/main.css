@@ -14,14 +14,26 @@
     margin-left: 350px;
 }
 
+.cuadro{
+    background-color: rgba(255, 255, 255, 0.163);
+    color: white;
+    text-align: center;
+    margin-left: 350px;
+}
 .tituloMedio{
+    background-color: rgba(255, 255, 255, 0.163);
+    text-align: left;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .subtitulos{
+    background-color: rgba(255, 255, 255, 0.163);
+    text-align: left;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -43,4 +55,8 @@
 
 .footer{
     margin-left: 650px;
+}
+
+p{
+    font-size:larger;
 }
