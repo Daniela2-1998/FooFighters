@@ -2,7 +2,7 @@
     width: 240px;
     height: 550px;
     background: #07182E;
-    background-image: url(/media/discos/foofighters.jpg);
+    background-image: url(media/discos/foofighters.jpg);
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
