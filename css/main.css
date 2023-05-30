@@ -50,33 +50,35 @@ a{
 .logoFFBlanco{
     width: 100%;
     height: 50px;
-    background-image: url("media/logos/logoFF.png");
+    background-image: url("/media/logos/logoFF.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding: 2%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
-    margin-left: 49%;
+    margin-left: 47%;
 }
 
-.titulo{
+.titulo_subtitulo{
     text-align: center;
     color: white;
 }
 
-.cuadro{
+.subtitulo{
+    width: 49%;
     background-color: rgba(255, 255, 255, 0.163);
-    color: white;
-    text-align: center;
+    text-align: start;
+    margin-top: 1%;
+    margin-bottom: 3%;
     margin-left: 350px;
+    padding: 1%;
 }
 
-.cuadro{
-    background-color: rgba(255, 255, 255, 0.163);
-    color: white;
-    text-align: center;
-    margin-left: 350px;
+.foto_central{
+    margin-left: 25%;
 }
+
+
 .tituloMedio{
     background-color: rgba(255, 255, 255, 0.163);
     text-align: left;
@@ -106,9 +108,6 @@ a{
     margin-right: 50px;
 }
 
-.fotoCentral{
-    margin-left: 480px;
-}
 
 .footer{
     margin-left: 650px;
