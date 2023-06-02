@@ -202,3 +202,42 @@ h3{
 .espacio_entre_videos{
     margin-bottom: 2%;
 }
+
+.espacio_para_bandas{
+    width: 87%;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(50, 50, 50);
+}
+
+.banda1{
+    width: 30%;
+    height: 300px;
+    background-image: url("/media/bandas_invitadas/am.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+
+.banda2{
+    width: 27%;
+    height: 300px;
+    background-image: url("/media/bandas_invitadas/kaiserchies.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banda3{
+    width: 27%;
+    height: 300px;
+    background-image: url("/media/bandas_invitadas/Queens-of-the-Stone-Age.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
