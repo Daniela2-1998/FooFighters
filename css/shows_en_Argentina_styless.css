@@ -1,0 +1,204 @@
+.cards_shows{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 2%;
+}
+
+.info_show{
+    width: 90%;
+    height: 380px;
+    background-color: white;
+    display: flex;
+    margin: 3%;
+}
+
+.valores_entradas{
+    width: 30%;
+    height: 380px;
+    background-color: gray;
+    color: white;
+    text-align: left;
+    border: 1px;
+
+}
+
+.valores_entradas p, .valores_entradas h3{
+    margin: 10%;
+}
+
+.texto_card_shows{
+    width: 80%;
+    color: black;
+    justify-content: left;
+    padding: 2%;
+}
+
+.texto_card_shows p{
+    margin-top: 2%;
+    margin-bottom: -1%;
+}
+
+h3{
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.espacios_datos_extra{
+    width: 91.8%;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.datos_extra{
+    width: 100%;
+    height: 600px;
+    margin: 1%; 
+    background-color: rgb(65, 64, 64);
+    text-align: center;
+    color: white;
+    border-radius: 1.5%;
+}
+
+.datos_extra h2{
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+.datos{
+    width: 100%;
+    height: 500px;
+    margin-left: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dato1{
+    width: 30%;
+    height: 200px;
+    background-image: url("/media/entradas/2012.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dato2{
+    width: 30%;
+    height: 200px;
+    background-image: url("/media/entradas/2015.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dato3{
+    width: 30%;
+    height: 200px;
+    background-image: url("/media/entradas/2018.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dato4{
+    width: 30%;
+    height: 200px;
+    background-image: url("/media/entradas/2022.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dato5{
+    width: 30%;
+    height: 200px;
+    background-image: url("/media/entradas/2012\ 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.titulos_blancos{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.espacio_setlists{
+    width: 87%;
+    height: 700px;
+    background-color: rgb(65, 64, 64);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.setlist1{
+    width: 25%;
+    height: 700px;
+    background-color: rgb(109, 107, 107);
+    color: white;
+}
+
+.contenido_set{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.setlist ul li{
+    margin: 5%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.setlist2{
+    width: 25%;
+    height: 700px;
+    background-color: rgb(97, 96, 96);
+    color: white;
+}
+
+.setlist3{
+    width: 25%;
+    height: 700px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.setlist4{
+    width: 25%;
+    height: 700px;
+    background-color: rgb(64, 64, 64);
+    color: white;
+}
+
+.setlist5{
+    width: 25%;
+    height: 700px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.espacio_videos{
+    width: 100%;
+    height: 1050px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.videos{
+    width: 87%;
+    height: 1050px;
+    margin-left: 5%;
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(50, 50, 50);
+}
+
+.espacio_entre_videos{
+    margin-bottom: 2%;
+}

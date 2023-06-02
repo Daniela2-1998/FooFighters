@@ -5,110 +5,370 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shows de Foo Fighters en Argentina</title>
+    <link rel="icon" href="../media/logos/ff.png" style="width: 50px; height: 50px;">
 
-    <link rel="stylesheet" href="/css/showsArg.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/shows_en_Argentina_styless.css">
 </head>
-<body style="background-color: black;">
-    
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navegador">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <a>
-                    <img src="/media/logos/ff.png" alt="Icono" width="50" height="50">
-                  </a>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="min-width: 150px;"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="/index.html" href="#" style="min-width: 150px;">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/pages/miembros.html" style="min-width: 150px;">Miembros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/pages/discografia.html" style="min-width: 150px;">Discografía</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="min-width: 60px;"></a>
-                  </li>
-                  
-                  <a class="navbar-brand" href="#">FooFighters fantribute</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="min-width: 60px;"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="min-width: 140px;">Shows en argentina</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="min-width: 60px;"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Página oficial</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-         
-    </header>
-
-<br>
- <a class="logoFFBlanco">
-  <img src="/media/logos/logoFF.png" alt="50px" width="50px">
- </a>
- <br>
-
-   <h1 class="titulo">Shows de Foo Fighters en Argentina</h1>
- <br>
-
- <aside style="text-align-last: center; color: white; background-color: rgba(65, 64, 64, 0.504); margin-left: 1300px;">
-  <div>
-  <H3>Precios 2012:</H3>
-  <p>
-    180 PESOS - GENERALES
-    <br>
-    295 PESOS - PLATEA ALTA
-    <br>
-    450 PESOS - CAMPO
-    <br>
-    675 PESOS - PLATEA BAJA
-    <br>
-    900 PESOS - PLATEA BAJA PREFERENCIAL
-  </p>
-</div>
-<br>
-<br>
-<div>  
-  <H3>Precios 2015:</H3>
-  <p>
-    180 PESOS - GENERALES
-    <br>
-    295 PESOS - PLATEA ALTA
-    <br>
-    450 PESOS - CAMPO
-    <br>
-    675 PESOS - PLATEA BAJA
-    <br>
-    900 PESOS - PLATEA BAJA PREFERENCIAL
-  </p>
-</div>
-</aside>
-
- <main>
-  <iframe style="align-self: center;" width="560" height="315" src="https://www.youtube.com/embed/hdWuphMSbGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-  </iframe>
- 
- </main>
-
-
-
+<body>
+  <header>
+    <nav class="navegador">
+      <ul>
+        <a class="logo_navegador" href="index.html">
+          <img src="../media/logos/ff.png" alt="Logo FF de navegador" class="ff_negro">
+        </a>
+      </ul>
+      <ul class="contenido_navegador">
+        <a id="espacios" href="../index.html">Inicio</a>
+        <a id="espacios" href="pages/miembros.html">Miembros</a>
+        <a id="espacios" href="pages/discografia.html">Discografía</a>
+        <a id="espacios" class="resaltar_del_navegador" href="../index.html">FooFighters fantribute</a>
+        <a id="espacios" href="pages/showsArgentina.html">Shows en Argentina</a>
+        <a id="espacios" href="https://foofighters.com/">Página oficial</a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="logoFFBlanco"></section>
+    <section class="titulo_subtitulo">
+      <h1>Foo Fighters en Argentina</h1>
+    </section>
+    <section class="cards_shows">
+      <div class="info_show">
+        <div class="valores_entradas">
+          <h3>Precios 2012:</h3>
+          <p>
+            180 PESOS - GENERALES
+            <br>
+            295 PESOS - PLATEA ALTA
+            <br>
+            450 PESOS - CAMPO
+            <br>
+            675 PESOS - PLATEA BAJA
+            <br>
+            900 PESOS - PLATEA BAJA PREFERENCIAL
+          </p>
+        </div>
+        <div class="texto_card_shows">
+          <h3>Quilmes Rock - River - 2012</h3>
+          <p>
+            Foo Fighters se presentó por primera vez en Argentina como headliners del Quilmes Rock
+            en 2 fechas: 3 y 4 de abril de 2012 en el Estadio de River.
+          </p>
+          <p>
+            Los shows corrieron riesgo de cancelación debido a las condiciones climáticas, pero aún así
+            se pudieron llevar a cabo y ambos shows pudieron ser grabados.
+          </p>
+          <p>
+            Cabe destacar, que la banda se demoró 20 años en venir al país ya que en 2 situaciones
+            estuvieron cerca de concretar pero debieron cancelar antes de que se anuncien los shows.
+            Estos shows iban a ocurrir en 2001 y en 2007, pero por motivos ajenos a ellos no se dieron.
+          </p>
+          <p>
+            En la noche del 4 de abril, mientras los Arctic Monkeys se acercaban al final de su show,
+            se desató una tormenta eléctrica sin precedentes. La gente se refugió en las tribunas y
+            en el campo, arrancaron las placas del piso artificial para cubrirse de la intensa lluvia.
+            Sí. La primera visita de Foo Fighters coincidía con la primera vez que por Buenos Aires
+            pasaba un tornado. No sólo un tornado sino que se trató de de la tormenta más destructiva
+            en extensión que afectó al Área Metropolitana de Buenos Aires–La Plata en su historia.
+          </p>
+        </div>
+      </div>
+      <div class="info_show">
+        <div class="valores_entradas">
+          <h3>Precios 2015:</h3>
+          <p>
+            600 PESOS - CABECERA SUR
+            <br>
+            800 PESOS - CAMPO
+            <br>
+            1000 PESOS - PLATEA B SUR
+            <br>
+            1350 PESOS - PLATEA PREFERENCIAL
+          </p>
+        </div>
+        <div class="texto_card_shows">
+          <h3>Estadio Único de La Plata - 2015</h3>
+          <p>
+            Foo Fighters se presentó por segunda vez en Argentina, esta vez con show propio y en el
+            Estadio Único de La Plata.
+          </p>
+          <p>
+            Como datos curiosos podemos mencionar que es el show con mayor duración y con setlist más
+            diverso dentro de todos los shows que dió la banda en el país. Diverso ya que todos los
+            discos tuvieron su representante a lo largo de esta fiesta, y ya que contó con una sección
+            especial dedicada a covers que todos conocemos y amamos. Esta sección conto con un escenario 2
+            que consistía en una plataforma giratoria en el medio del estadio. Esta plataforma, también
+            podía subir y bajar ya que casi toda la banda apareció desde abajo.
+          </p>
+          <p>
+            El show contó con 2x1 y descuentos y promociones para la compra de entradas debido a la poca
+            venta que habían tenido. Esto se debe a que el Estadio Único no era la mejor opción para traerlos.
+            Aún así, la banda conecto con el público y el público con ellos en una noche llena de clásicos,
+            canciones nuevas, baile y festejo durante unas 3hs.
+          </p>
+        </div>
+      </div>
+      <div class="info_show">
+        <div class="valores_entradas">
+          <h3>Precios 2018:</h3>
+          <p>
+            250 PESOS - PLATEA ALTA
+            <br>
+            1600 PESOS - CAMPO
+            <br>
+            2600 PESOS - PLATEA COMUN
+            <br>
+            3200 PESOS - PLATEA PREFERENCIAL
+          </p>
+        </div>
+        <div class="texto_card_shows">
+          <h3>Estadio Velez - Queens Of The Stone Age - 2018</h3>
+          <p>
+            Foo Fighters se presentó en una gira conjunta con Queens Of The Stone Age que únicamente
+            alcanzó a 2 países: Brasil y Argentina.
+          </p>
+          <p>
+            Se trató de una gira esperada por muchos que lamentablemente en este país no salió del todo
+            bien ya que hubo problemas en el ingreso del sector campo y muchas de las personas que tenían
+            esa ubicación tuvieron que esperar durante horas para el ingreso, lo que ocasionó que muchos
+            de ellos se perdieran el show de los Stone Age y que generaran una demanda masiva.
+          </p>
+          <p>
+            Ambos shows fueron excelentes. En el caso de los Stone Age, tuvieron un show de casi 2hs,
+            mientrás que los Foo tocaron 2hs y 30m aproximadamente. Fuimos de los pocos afortunados que
+            pudieron ver a ambas bandas en un mismo día.
+          </p>
+          <p>
+            Como dato curioso, podemos mencionar la cantidad de buenos bateristas que hubo en esa fecha.
+          </p>
+        </div>
+      </div>
+      <div class="info_show">
+        <div class="valores_entradas">
+          <h3>Precios 2022:</h3>
+          <p>Depende de la etapa de preventa y de días elegidos</p>
+        </div>
+        <div class="texto_card_shows">
+          <h3>Lollapalooza - Hipodromo de San Isidro - 2022</h3>
+          <p>
+            La edición de 2020 había sido postergada debido a la pandemia del coronavirus, finalmente,
+            se develó el line up nuevo, el cuál había modificado casi la totalidad de los shows anunciados
+            en 2020. De esta forma, Foo Fighters pasaron a ser los nuevos headliners del día domingo,
+            ocupando el lugar de los Guns n Roses.
+          </p>
+          <p>
+            Se trató de una gira esperada por muchos que lamentablemente en este país no salió del todo
+            bien ya que hubo problemas en el ingreso del sector campo y muchas de las personas que tenían
+            esa ubicación tuvieron que esperar durante horas para el ingreso, lo que ocasionó que muchos
+            de ellos se perdieran el show de los Stone Age y que generaran una demanda masiva.
+          </p>
+          <p>
+            Ambos shows fueron excelentes. En el caso de los Stone Age, tuvieron un show de casi 2hs,
+            mientrás que los Foo tocaron 2hs y 30m aproximadamente. Fuimos de los pocos afortunados que
+            pudieron ver a ambas bandas en un mismo día.
+          </p>
+          <p>
+            Como dato curioso, podemos mencionar la cantidad de buenos bateristas que hubo en esa fecha.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="espacios_datos_extra">
+      <div class="datos_extra">
+        <h2>Entradas</h2>
+        <div class="datos">
+          <span class="dato1"></span>
+          <span class="dato5"></span>
+          <span class="dato2"></span>
+          <span class="dato3"></span>
+          <span class="dato4"></span>
+        </div>
+      </div>
+    </section>
+    <h2 class="titulos_blancos">Setlists</h2>
+    <section class="espacio_setlists">
+      <span class="setlist1">
+        <ol class="contenido_set">
+          <li>Bridge Burning</li>
+          <li>Rope</li>
+          <li>The Pretender</li>
+          <li>My Hero</li>
+          <li>Learn to Fly</li>
+          <li>White Limo</li>
+          <li>Arlandria</li>
+          <li>Breakout</li>
+          <li>Cold Day in the Sun</li>
+          <li>Big Me</li>
+          <li>Stacked Actors</li>
+          <li>Walk</li>
+          <li>Monkey Wrench</li>
+          <li>Let It Die</li>
+          <li>I Should Have Known</li>
+          <li>These Days</li>
+          <li>This Is a Call</li>
+          <li>In the Flesh? (cover de Pink Floyd)</li>
+          <li>Best of You</li>
+          <li>All My Life</li>
+          Encore 1:
+          <li>Wheels</li>
+          <li>Times Like These</li>
+          <li>Dear Rosemary</li>
+          <li>Bad Reputation (cover de Joan Jett and the Blackhearts)</li>
+          <li>Everlong</li>
+        </ol>
+      </span>
+      <span class="setlist2">
+        <ol class="contenido_set">
+          <li>All My Life</li>
+          <li>Times Like These</li>
+          <li>Rope</li>
+          <li>The Pretender</li>
+          <li>My Hero</li>
+          <li>Learn to Fly</li>
+          <li>White Limo</li>
+          <li>Arlandria</li>
+          <li>Breakout</li>
+          <li>Cold Day in the Sun</li>
+          <li>Long Road to Ruin</li>
+          <li>Big Me</li>
+          <li>Stacked Actors</li>
+          <li>Walk</li>
+          <li>Generator</li>
+          <li>Monkey Wrench</li>
+          <li>Hey, Johnny Park!</li>
+          <li>These Days</li>
+          <li>This Is a Call</li>
+          <li>In the Flesh? (cover de Pink Floyd)</li>
+          <li>Best of You</li>
+          Encore 1:
+          <li>Enough Space</li>
+          <li>For All the Cows</li>
+          <li>Dear Rosemary</li>
+          <li>Bad Reputation (cover de Joan Jett and the Blackhearts con Joan Jett)</li>
+          <li>Everlong</li>
+        </ol>
+      </span>
+      <span class="setlist3">
+        <ol class="contenido_set">
+          <li>Something From Nothing</li>
+          <li>The Pretender</li>
+          <li>Learn to Fly</li>
+          <li>Breakout</li>
+          <li>Arlandria</li>
+          <li>Generator</li>
+          <li>My Hero</li>
+          <li>Hey, Johnny Park!</li>
+          <li>Monkey Wrench</li>
+          <li>Wrathchild / Another One Bites the Dust</li>
+          <li>Cold Day in the Sun</li>
+          <li>In the Clear</li>
+          <li>I'll Stick Around</li>
+          <li>Congregation</li>
+          <li>Walk</li>
+          F.O.H
+          <li>Skin and Bones</li>
+          <li>Wheels</li>
+          B-Stage
+          <li>Times Like These</li>
+          <li>Detroit Rock City (cover de KISS)</li>
+          <li>Young Man Blues (cover de Mose Allison)</li>
+          <li>Miss You (cover de The Rolling Stones)</li>
+          <li>Stiff Competition (cover de Cheap Trick)</li>
+          <li>Under Pressure (cover de Queen)</li>
+          <li>All My Life</li>
+          <li>These Days</li>
+          <li>Outside</li>
+          <li>Best of You</li>
+          <li>Everlong</li>
+        </ol>
+      </span>
+      <span class="setlist4">
+        <ol class="contenido_set">
+          <li>Run</li>
+          <li>All My Life</li>
+          <li>Learn to Fly</li>
+          <li>The Pretender</li>
+          <li>The Sky Is a Neighborhood</li>
+          <li>Rope</li>
+          <li>Sunday Rain</li>
+          <li>My Hero</li>
+          <li>These Days</li>
+          <li>Walk</li>
+          <li>Breakout</li>
+          <li>Under My Wheels (Alice Cooper cover cantado por Chris Shiflett)</li>
+          <li>Medley(Another One Bites the Dust / Imagine / Jump / Blitzkrieg Bop / Love of My Life)</li>
+          <li>Under Pressure (Queen cover cantado por Taylor Hawkins)</li>
+          <li>Argentina I Love You (canción improvisada)</li>
+          <li>Monkey Wrench</li>
+          <li>Times Like These</li>
+          <li>Generator</li>
+          <li>Big Me</li>
+          <li>Best of You</li>
+          Encore:
+          <li>Dirty Water</li>
+          <li>This Is a Call</li>
+          <li>Everlong</li>
+        </ol>
+      </span>
+      <span class="setlist5">
+        <ol class="contenido_set">
+          <li>Times Like These</li>
+          <li>The Pretender</li>
+          <li>Learn to Fly</li>
+          <li>No Son of Mine</li>
+          <li>The Sky Is a Neighborhood</li>
+          <li>Shame Shame</li>
+          <li>Breakout</li>
+          <li>My Hero</li>
+          <li>These Days</li>
+          <li>Walk</li>
+          Medley: Guitar Solo / My Generation / Keyboard Solo / Gonna Make You Sweat / Blitzkrieg Bop
+          (Band introductions)</li>
+          <li>Somebody to Love (Queen cover) (Taylor cantando y Dave en la batería)</li>
+          <li>All My Life</li>
+          <li>Run</li>
+          <li>Wheels</li>
+          <li>Best of You</li>
+          <li>Been Caught Stealing (Jane’s Addiction cover) (con Perry Farrell)</li>
+          <li>Monkey Wrench</li>
+          <li>Everlong</li>
+        </ol>
+      </span>
+    </section>
+    <section class="espacio_videos">
+      <h2 class="titulos_blancos">Grabaciones de los shows</h2>
+      <div class="videos">
+        <iframe class="espacio_entre_videos" width="560" height="315" src="https://www.youtube.com/embed/65r1waOOevs"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <iframe class="espacio_entre_videos" width="560" height="315" src="https://www.youtube.com/embed/hdWuphMSbGM"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <iframe class="espacio_entre_videos" width="560" height="315" src="https://www.youtube.com/embed/rNiSFe49fYQ"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <iframe class="espacio_entre_videos" width="560" height="315" src="https://www.youtube.com/embed/OONniQ6pf48"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <iframe class="espacio_entre_videos" width="560" height="315" src="https://www.youtube.com/embed/LMQ6zmcD_0M"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="logoFFBlanco">
+    </div>
+    <div>
+      <h5>Creado para fanáticos e interesados en la banda.</h5>
+    </div>
+  </footer>
 </body>
+
 </html>
