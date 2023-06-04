@@ -80,7 +80,12 @@ a{
 }
 
 .foto_central{
-    margin-left: 25%;
+    background-image: url("/media/foo_fighters.jpg");
+    width: 80%;
+    height: 680px;
+    margin-left: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .titulo_medio{
@@ -168,11 +173,17 @@ footer{
     }
 
     .subtitulo {
-        margin-left: 190px;
+        margin-left: 200px;
     }
 
-    .foto_central {
-        margin-left: 6%;
+    .foto_central{
+        background-image: url("/media/foo_fighters.jpg");
+        width: 80%;
+        height: 680px;
+        margin-left: 10%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: -40%;
     }
 
     p {
@@ -226,6 +237,7 @@ footer{
         margin-left: 1%;
         width: 100%;
         height: 500px;
+        margin-bottom: -80%;
     }
 
     #espacio_para_las_cards {
