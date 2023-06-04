@@ -149,32 +149,115 @@ footer{
 
 
 
-           /* TABLET  */
+/* TABLET  */
 
 @media screen and (max-width:768px) {
 
-.ff_negro{
-    width: 50px;
-    height: 50px;
+    .ff_negro {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contenido_navegador {
+        margin-left: 4%;
+        font-size: 14px;
+    }
+
+    #espacios{
+        margin-right: 3%;
+    }
+
+    .subtitulo {
+        margin-left: 190px;
+    }
+
+    .foto_central {
+        margin-left: 6%;
+    }
+
+    p {
+        margin-bottom: 7%;
+        font-size: 14px;
+    }
+
+
 }
 
-.contenido_navegador{
-    margin-left: 5%;
-    font-size: 14px;
-}
+           /* CELULAR */
+@media screen and (max-width: 376px) {
 
-.subtitulo{
-    margin-left: 190px;
-}
+    .navegador {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-style: normal;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        padding: 0%;
+    }
 
-.foto_central{
-    margin-left: 6%;
-}
+    .ff_negro {
+        width: 45px;
+        height: 45px;
+        margin-left: 20%;
+    }
 
-p{
-    margin-bottom: 7%;
-    font-size: 14px;
-}
+    .contenido_navegador {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 25%;
+    }
+
+    #espacios {
+        padding: 2%;
+    }
+
+
+    .subtitulo {
+        width: 90%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+
+    .foto_central {
+        margin-left: 1%;
+        width: 100%;
+        height: 500px;
+    }
+
+    #espacio_para_las_cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .cuadros_historia {
+        width: 80%;
+        height: 600px;
+        background-color: rgba(255, 255, 255, 0.163);
+        margin-top: 3%;
+        margin-left: 4%;
+        margin-bottom: 5%;
+        border-radius: 2%;
+        border-color: rgba(82, 82, 82, 0.163);
+        box-shadow:
+            inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+            0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    }
+
+    .contenido_card_historia {
+        width: 85%;
+    }
+
+    p {
+        font-size: medium;
+    }
 
 
 }
