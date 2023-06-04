@@ -146,3 +146,35 @@ footer{
     margin-bottom: 2%;
     font-weight: bold;
 }
+
+
+
+           /* TABLET  */
+
+@media screen and (max-width:768px) {
+
+.ff_negro{
+    width: 50px;
+    height: 50px;
+}
+
+.contenido_navegador{
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+.subtitulo{
+    margin-left: 190px;
+}
+
+.foto_central{
+    margin-left: 6%;
+}
+
+p{
+    margin-bottom: 7%;
+    font-size: 14px;
+}
+
+
+}
