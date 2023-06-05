@@ -314,7 +314,78 @@ h3{
           /* CELULAR PLUS*/
 @media screen and (max-width: 660px) {
 
+    .info_show{
+        width: 95%;
+        height: 680px;
+    }
     
+    .valores_entradas{
+        height: 680px;
+    }
+    
+    .valores_entradas p, .valores_entradas h3{
+        margin: 10%;
+        font-size: 11px;
+    }
+
+    .espacios_datos_extra{
+        width: 95%;
+    }
+    
+    .datos_extra{
+        height: 360px;
+    }
+    
+    .datos{
+        height: 400px;
+    }
+
+    .dato4{
+        width: 30%;
+        height: 100px;
+        background-image: url("/media/entradas/2022.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .espacio_setlists{
+        width: 100%;
+        height: 700px;
+        margin-left: 0%;
+    }
+    
+    .setlist1{
+        height: 700px;
+    }
+    
+    .contenido_set{
+        margin-left: 25%;
+    }
+    
+    .setlist ul li{
+        font-size: 12px;
+    }
+    
+    .espacio_videos{
+        width: 100%;
+        height: 1750px;
+        margin-left: 2%;
+    }
+    
+    .videos{
+        height: 1700px;
+    }
+    
+    .espacio_entre_videos{
+        margin-bottom: 2%;
+    }
+    
+    .espacio_para_bandas{
+        height: 70px;
+        margin-left: 6.5%;
+    }
+    
+
 
 }
 
@@ -322,7 +393,79 @@ h3{
            /* CELULAR */
 @media screen and (max-width: 376px) {
 
-  
+    .info_show{
+        width: 95%;
+        height: 680px;
+    }
+    
+    .valores_entradas{
+        height: 680px;
+    }
+    
+    .valores_entradas p, .valores_entradas h3{
+        margin: 10%;
+        font-size: 11px;
+    }
+
+    .espacios_datos_extra{
+        width: 95%;
+    }
+    
+    .datos_extra{
+        height: 360px;
+    }
+    
+    .datos{
+        height: 400px;
+    }
+
+    .dato4{
+        width: 30%;
+        height: 100px;
+        background-image: url("/media/entradas/2022.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .espacio_setlists{
+        width: 100%;
+        height: 700px;
+        margin-left: 0%;
+    }
+    
+    .setlist1{
+        height: 700px;
+    }
+    
+    .contenido_set{
+        margin-left: 25%;
+    }
+    
+    .setlist ul li{
+        font-size: 12px;
+    }
+    
+    .espacio_videos{
+        width: 100%;
+        height: 1750px;
+        margin-left: 2%;
+    }
+    
+    .videos{
+        height: 1700px;
+    }
+    
+    .espacio_entre_videos{
+        margin-bottom: 2%;
+    }
+    
+    .espacio_para_bandas{
+        height: 70px;
+        margin-left: 6.5%;
+    }
+    
+
+
 
 }
 
