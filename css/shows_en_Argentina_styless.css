@@ -241,3 +241,91 @@ h3{
     background-repeat: no-repeat;
 }
 
+
+
+           /* TABLET  */
+
+@media screen and (max-width:768px) {
+    
+    .info_show{
+        height: 330px;
+    }
+    
+    .valores_entradas{
+        height: 330px;
+    }
+
+    .espacios_datos_extra{
+        width: 90.5%;
+    }
+    
+    .datos_extra{
+        height: 500px;
+    }
+    
+    .datos{
+        height: 420px;
+        margin-left: 5.5%;
+    }
+
+    .espacio_setlists{
+        width: 90%;
+        height: 480px;
+        font-size:x-small;
+    }
+    
+    .setlist1{
+        height: 480px;
+    }
+    
+    .setlist2{
+        height: 480px;
+    }
+    
+    .setlist3{
+        height: 480px;
+    }
+    
+    .setlist4{
+        height: 480px;
+    }
+    
+    .setlist5{
+        height: 480px;
+    }
+    
+    .espacio_videos{
+        height: 1850px;
+    }
+    
+    .videos{
+        height: 1800px;
+    }
+    
+    .espacio_entre_videos{
+        margin-bottom: 5%;
+    }
+    
+    .espacio_para_bandas{
+        height: 150px;
+    }
+}
+
+          /* CELULAR PLUS*/
+@media screen and (max-width: 660px) {
+
+    
+
+}
+
+
+           /* CELULAR */
+@media screen and (max-width: 376px) {
+
+  
+
+}
+
+
+
+        
